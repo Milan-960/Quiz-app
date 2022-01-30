@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 import { Button, CircularProgress, Typography } from "@mui/material";
 import { Box } from "@mui/system";
@@ -10,6 +11,8 @@ import Axios from "../hooks/Axios";
 
 const Setting = () => {
   const { response, loading, error } = Axios({ url: "/api_category.php" });
+
+  const history = useHistory();
 
   if (loading) {
     return (
@@ -40,6 +43,7 @@ const Setting = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    history.push("/question");
   };
 
   return (
