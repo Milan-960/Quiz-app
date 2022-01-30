@@ -1,10 +1,29 @@
 import React from "react";
 
+import { Box, Button, Typography } from "@mui/material";
+
+import Axios from "../hooks/Axios";
+
 function Question() {
+  let apiUrl = `/api.php?amount=10`;
+
+  const { response, loading } = Axios({ url: apiUrl });
+  console.log(response);
+
   return (
-    <div>
-      <h1>question</h1>
-    </div>
+    <Box>
+      <Typography variant="h4">Question 1</Typography>
+      <Typography mt={5}>This is the question?</Typography>
+      <Box mt={2}>
+        <Button variant="contained">Answer 1</Button>
+      </Box>
+      <Box mt={2}>
+        <Button variant="contained">Answer 2</Button>
+      </Box>
+      <Box mt={5}>
+        <Button>Score: 2 / 6</Button>
+      </Box>
+    </Box>
   );
 }
 
