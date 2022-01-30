@@ -3,8 +3,16 @@ import React from "react";
 import { Box, Button, Typography } from "@mui/material";
 
 import Axios from "../hooks/Axios";
+import { useSelector } from "react-redux";
 
 function Question() {
+  const {
+    question_category,
+    question_difficulty,
+    question_type,
+    amount_of_question,
+  } = useSelector((state) => state);
+
   let apiUrl = `/api.php?amount=10`;
 
   const { response, loading } = Axios({ url: apiUrl });
