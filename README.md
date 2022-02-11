@@ -26,6 +26,7 @@ npm start
 - [MaterialUI](https://mui.com/)
 - [React-Router-Dom](https://reactrouter.com/web/guides/quick-start)
 - [Axios](https://axios-http.com/)
+- [Trivia API](https://opentdb.com/api_config.php)
 
 <img align="right" src="./img/home.png" width="100%"/>&nbsp;
 
