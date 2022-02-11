@@ -18,4 +18,15 @@ npm install
 npm start
 ```
 
-<img align="right" src="./public/home.png" width="100%"/>&nbsp;
+### Tecnologias which have been used 🔥
+
+- [ReactJS](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [React Dom](https://reactjs.org/docs/react-dom.html)
+- [MaterialUI](https://mui.com/)
+- [React-Router-Dom](https://reactrouter.com/web/guides/quick-start)
+- [Axios](https://axios-http.com/)
+
+<img align="right" src="./img/home.png" width="100%"/>&nbsp;
+
+<img align="right" src="./img/home2.png" width="100%"/>&nbsp;
