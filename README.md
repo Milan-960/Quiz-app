@@ -1,5 +1,3 @@
-# React-Recipe-List-App
+# React-Quiz-App
 
 <img align="right" src="./public/home.png" width="100%"/>&nbsp;
-
-<img align="right" src="./public/img/RECIPE.png" width="100%"/>&nbsp;
